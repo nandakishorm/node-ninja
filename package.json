@@ -1,0 +1,22 @@
+{
+  "name": "ninja",
+  "version": "1.0.0",
+  "description": "Test repo to start with node js",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nandakishorm/node-ninja.git"
+  },
+  "author": "nandakishor.m",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nandakishorm/node-ninja/issues"
+  },
+  "homepage": "https://github.com/nandakishorm/node-ninja#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
