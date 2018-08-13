@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+
+    <body style="background-color: aqua">
+        <h1>Welcome to the profile of <%= person %></h1>
+        <p><strong>Job: <%= data.job %></strong></p>
+        <p><strong>Email: <%= data.email %></strong></p>
+        <strong>Hobbies</strong>
+        <ul>
+            <% data.hobbies.forEach(function(item){ %>
+                <li><%= item %></li>
+            <% }); %>
+        </ul>
+    </body>
+</html>
