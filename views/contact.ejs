@@ -3,13 +3,16 @@
     <head></head>
     <body>
         <h2>Contacts</h2>
-        <form id="contact-form" method="POST" action="/contact">
+        <!-- <% // if(status === "success") { %>
+        <h2>Contact uploaded sucessfully !!!</h2>
+        <% // } %> -->
             <ul>
+                <form id="contact-form" method="POST" action="/contact">
                     <li>Name: <input type="text", name="uname"></li>
                     <li>Email: <input type="text" name="email"></li>
                     <li>Phone: <input type="text" name="phone"></li>
-                    <li><input type="button" name="submit" value="Submit"></li>
-                </ul>
-        </form>        
+                    <input type="submit" name="submit" value="Submit"></li>
+                </form>
+            </ul>         
     </body>
 </html>

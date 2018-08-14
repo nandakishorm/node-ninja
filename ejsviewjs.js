@@ -15,8 +15,7 @@ app.get('/profile/:name', function(req, res) {
     res.render('profile', { person: req.params.name, data: otherData });
 });
 
-app.get('/contact', function(req, res) {
-    console.log(req.query);
+app.get('/contact', function(req, res) {   
     res.render('contact');
 });
 
